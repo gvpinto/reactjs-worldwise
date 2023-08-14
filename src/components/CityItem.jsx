@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom';
 import styles from './CityItem.module.css';
 
-function CityItem({ city: { cityName, emoji, date } }) {
+// Iterated as part of /cities url
+function CityItem({ city: { cityName, emoji, date, id } }) {
     const formatDate = (date) =>
         new Intl.DateTimeFormat("en", {
             day: "numeric",
@@ -9,10 +11,12 @@ function CityItem({ city: { cityName, emoji, date } }) {
         }).format(new Date(date));
 
     return (
-        <li className={styles.cityItem}>
-            <span className={styles.emoji}>{emoji}</span>
-            <h3 className={styles.name}>{cityName}</h3>
-            <time className={styles.date}>{formatDate(date)}</time>
+        <li >
+            <Link to={`${id}`} className={styles.cityItem}>
+                <span className={styles.emoji}>{emoji}</span>
+                <h3 className={styles.name}>{cityName}</h3>
+                <time className={styles.date}>{formatDate(date)}</time>
+            </Link>
         </li>
     );
 }
