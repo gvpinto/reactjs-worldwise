@@ -35,6 +35,66 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Samper de Calanda",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-08-24T11:56:05.689Z",
+      "notes": "asdfasd",
+      "position": {
+        "lat": "41.16211393939692",
+        "lng": "-0.26367187500000006"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Mangalore",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-08-24T11:56:35.249Z",
+      "notes": "Mangalore",
+      "position": {
+        "lat": "12.843937692841445",
+        "lng": "74.83886718750001"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Yeste",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-08-24T11:58:58.680Z",
+      "notes": "",
+      "position": {
+        "lat": "38.30718056188316",
+        "lng": "-2.4389648437500004"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "La Yunta",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-08-24T12:04:09.426Z",
+      "notes": "",
+      "position": {
+        "lat": "40.96330795307353",
+        "lng": "-1.6918945312500002"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Montchevrier",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-08-24T12:04:14.407Z",
+      "notes": "",
+      "position": {
+        "lat": "46.46813299215556",
+        "lng": "1.77978515625"
+      },
+      "id": 98443202
     }
   ]
 }
