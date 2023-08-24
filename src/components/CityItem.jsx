@@ -5,7 +5,12 @@ import { useCities } from '../contexts/CitiesContext';
 // Iterated as part of /cities url
 function CityItem({ city: { cityName, emoji, date, id, position: { lat, lng } } }) {
 
-    const { currentCity } = useCities();
+    const { currentCity, deleteCity } = useCities();
+
+    function handleDelete(e) {
+        e.preventDefault();
+        deleteCity(id);
+    }
 
     const formatDate = (date) =>
         new Intl.DateTimeFormat("en", {
@@ -20,6 +25,7 @@ function CityItem({ city: { cityName, emoji, date, id, position: { lat, lng } } 
                 <span className={styles.emoji}>{emoji}</span>
                 <h3 className={styles.name}>{cityName}</h3>
                 <time className={styles.date}>{formatDate(date)}</time>
+                <button className={styles.deleteBtn} onClick={handleDelete}>&times;</button>
             </Link>
         </li>
     );
