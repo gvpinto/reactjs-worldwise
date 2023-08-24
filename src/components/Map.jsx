@@ -5,18 +5,17 @@ import { useEffect, useState } from 'react';
 import { useCities } from '../contexts/CitiesContext';
 import Button from './Button';
 import { useGeolocation } from '../hooks/useGeolocation';
+import { useUrlPosition } from '../hooks/useUrlPosition';
 
 function Map() {
 
     // Include Leaflet css in index.css file
 
-    const [searchParams, setSearchParams] = useSearchParams();
     const [mapPosition, setMapPosition] = useState([40, 0]);
     const { cities } = useCities();
     const { isLoading: isLoadingPosition, position: geolocationPosition, getPosition } = useGeolocation();
+    const [mapLat, mapLng] = useUrlPosition();
 
-    const mapLat = searchParams.get('lat');
-    const mapLng = searchParams.get('lng');
 
     useEffect(function () {
         if (mapLat && mapLng) setMapPosition([mapLat, mapLng]);
