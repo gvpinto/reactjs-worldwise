@@ -12,21 +12,20 @@ import { useAuth } from "../contexts/FakeAuthContext";
 
 function User() {
 
-    const { logout } = useAuth();
+    const { logout, user } = useAuth();
     const navigate = useNavigate();
     const { isAuthenticated } = useAuth();
 
     // const user = FAKE_USER;
-    const user = useAuth();
 
     function handleClick() {
         logout();
         navigate('/');
     }
 
-    if (!isAuthenticated) {
-        return null;
-    }
+    // if (!isAuthenticated) {
+    //     return null;
+    // }
 
     return (
         <div className={styles.user}>

@@ -37,28 +37,64 @@
       "id": 98443197
     },
     {
-      "cityName": "Villanueva de la Jara",
+      "cityName": "Alcorisa",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2023-08-25T00:42:13.075Z",
+      "date": "2023-08-25T23:50:47.607Z",
       "notes": "",
       "position": {
-        "lat": "39.41922073655956",
-        "lng": "-1.8896484375000002"
+        "lat": "40.93011520598307",
+        "lng": "-0.39550781250000006"
       },
       "id": 98443198
     },
     {
-      "cityName": "Helechosa de los Montes",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-08-25T01:35:46.922Z",
+      "cityName": "Dar Chioukh",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2023-08-25T23:50:51.374Z",
       "notes": "",
       "position": {
-        "lat": "39.2832938689385",
-        "lng": "-4.855957031250001"
+        "lat": "34.867904962568744",
+        "lng": "3.5375976562500004"
       },
       "id": 98443199
+    },
+    {
+      "cityName": "Hay",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2023-08-25T23:50:58.780Z",
+      "notes": "",
+      "position": {
+        "lat": "-34.30714385628803",
+        "lng": "144.84375000000003"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Kol",
+      "country": "Papua New Guinea",
+      "emoji": "🇵🇬",
+      "date": "2023-08-25T23:51:16.292Z",
+      "notes": "",
+      "position": {
+        "lat": "-5.7908968128719565",
+        "lng": "144.84375000000003"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Ba Ria-Vung Tau",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2023-08-25T23:51:25.645Z",
+      "notes": "",
+      "position": {
+        "lat": "9.795677582829743",
+        "lng": "107.57812500000001"
+      },
+      "id": 98443202
     }
   ]
 }
