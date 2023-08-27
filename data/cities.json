@@ -73,18 +73,6 @@
       "id": 98443200
     },
     {
-      "cityName": "Kol",
-      "country": "Papua New Guinea",
-      "emoji": "🇵🇬",
-      "date": "2023-08-25T23:51:16.292Z",
-      "notes": "",
-      "position": {
-        "lat": "-5.7908968128719565",
-        "lng": "144.84375000000003"
-      },
-      "id": 98443201
-    },
-    {
       "cityName": "Ba Ria-Vung Tau",
       "country": "Viet Nam",
       "emoji": "🇻🇳",
@@ -95,6 +83,30 @@
         "lng": "107.57812500000001"
       },
       "id": 98443202
+    },
+    {
+      "cityName": "Kerendari",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-08-25T23:56:58.305Z",
+      "notes": "",
+      "position": {
+        "lat": "23.692238661462373",
+        "lng": "85.1355332755503"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Santo Tome",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-08-26T20:38:59.747Z",
+      "notes": "",
+      "position": {
+        "lat": "38.01664597132106",
+        "lng": "-3.0047354243660216"
+      },
+      "id": 98443206
     }
   ]
 }
